@@ -7,7 +7,7 @@ import Hero from './hero'
 function HeroAndNavigation() {
     return (
         <Container>
-      <Box bg="primaryBg" w="100%" pl="50px" >
+      <Box bg="primaryBg" w="100%" >
           
           <Navbar />
           <Hero />  
