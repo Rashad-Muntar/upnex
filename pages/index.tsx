@@ -6,6 +6,7 @@ import SharedHead from "../src/header";
 import WorkWithUs from "../src/Components/presntational/Homepage/workWithUs";
 import HeroAndNavigation from "../src/Components/presntational/Homepage/heroAndNavigation";
 import Grow from "../src/Components/presntational/Homepage/grow";
+import Services from "../src/Components/presntational/Homepage/services";
 const Home: NextPage = () => {
   return (
     <main className="main">
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <HeroAndNavigation />
       <WorkWithUs />
       <Grow />
+      <Services />
     </main>
   );
 };
