@@ -7,6 +7,7 @@ import WorkWithUs from "../src/Components/presntational/Homepage/workWithUs";
 import HeroAndNavigation from "../src/Components/presntational/Homepage/heroAndNavigation";
 import Grow from "../src/Components/presntational/Homepage/grow";
 import Services from "../src/Components/presntational/Homepage/services";
+import KnowUs from "../src/Components/presntational/Homepage/knowUs";
 const Home: NextPage = () => {
   return (
     <main className="main">
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <WorkWithUs />
       <Grow />
       <Services />
+      <KnowUs />
     </main>
   );
 };
