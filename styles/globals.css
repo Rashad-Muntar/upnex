@@ -27,3 +27,9 @@ main {
   transition: 300ms;
   cursor: pointer;
 }
+
+.serviceMenuItem:hover{
+  color: white;
+  transition: 300ms;
+  cursor: pointer;
+}

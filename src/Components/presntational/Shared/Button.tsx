@@ -8,7 +8,7 @@ interface Props {
 }
 function SharedButton({title, handler}: Props) {
   return (
-      <Button onClick={handler}>{title}</Button>
+      <Button className='getStarted' bg="black" color="white" borderRadius="full" onClick={handler}>{title}</Button>
   )
 }
 

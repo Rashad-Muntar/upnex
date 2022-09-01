@@ -12,7 +12,7 @@ interface Props {
 const ServiceCard = ({ icon, title, desc, learnMore }: Props) => {
   return (
     <GridItem colSpan={{xs: 2, sm: 2, md:1}}>
-    <Box h="100%" bg="primaryYellow" p={{xs:"20px",md:"40px" }} borderRadius="10px">
+    <Box className="service" h="100%" bg="primaryYellow" p={{xs:"20px",md:"40px" }} borderRadius="10px">
       <Box
         bg="black"
         display="inline-flex"
@@ -30,9 +30,10 @@ const ServiceCard = ({ icon, title, desc, learnMore }: Props) => {
         alignItems="center"
         borderBottom="1px"
         display="inline-flex"
+        className="serviceMenuItem"
       >
         <Link href={learnMore}>
-          <Text fontWeight="bold" mr="20px">
+          <Text fontWeight="bold" mr="20px" >
             Learn more
           </Text>
         </Link>

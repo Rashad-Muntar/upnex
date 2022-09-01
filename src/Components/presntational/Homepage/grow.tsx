@@ -20,10 +20,10 @@ function Grow() {
           <Flex
             direction={{ xs: "column", md: "row" }}
             justify="space-between"
-            mt="70px"
+            mt="30px"
           >
             <Box position="relative" width={{ xs: "100%", md: "47%" }}>
-              <Text textAlign="justify" fontWeight="semibold" lineHeight="30px">
+              <Text noOfLines={5} textAlign="justify" lineHeight="30px">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                 incidunt cum, totam consequuntur repellat eius dolores modi ab,
                 iusto error eum molestias voluptatibus iste tempore tempora
@@ -33,7 +33,7 @@ function Grow() {
                 accusantium dolore suscipit perspiciatis nihil rerum quasi ab
                 vero expedita ipsum quas.
               </Text>
-              <Flex alignItems="center" mt="40px" className="menuItem">
+              <Flex alignItems="center" my="30px" className="menuItem">
                 <Link href="#">
                   <Text fontWeight="bold" mr="10px">
                     learn more

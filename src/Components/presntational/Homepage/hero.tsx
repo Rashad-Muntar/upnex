@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Container from '../Shared/container'
-import { Flex, Box , Heading, Text, Img} from '@chakra-ui/react'
+import { Flex, Box , Heading, Text, Img, Show} from '@chakra-ui/react'
 import SharedButton from '../Shared/Button'
 import { SiTrustpilot } from "react-icons/si"
 
@@ -22,7 +22,7 @@ function Hero() {
               <Img src="/images/9.png" h="50Px" w="50px"/>
               </Flex>
           </Box>
-          <Img src="/images/2.jpg" w={{xs: "100%", md:"40%"}} h={{lg:"600px", xl:"600px" }} /> 
+          <Img src="/images/2.jpg" w={{xs: "100%", md:"40%"}} h={{xs: "660px", lg:"600px", xl:"600px" }} /> 
     </Flex>
     </Container>
   )

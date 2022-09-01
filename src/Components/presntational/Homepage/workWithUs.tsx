@@ -14,7 +14,6 @@ function WorkWithUs() {
               src="/images/1.jpg"
               borderTopRightRadius="10px"
               borderBottomLeftRadius="10px"
-              w="50rem"
             />
             <Box
               position="absolute"
@@ -39,7 +38,7 @@ function WorkWithUs() {
               {" "}
               Not For Us
             </Heading>
-            <Text fontWeight="semibold" width={{ xs: "100%", md: "80%" }}>
+            <Text width={{ xs: "100%", md: "80%" }} mt="30px">
               There are 100 definitions of marketing. But we undersrtand that
               marketing is what happens in every company here and now: finding
               new solutions and launching new Products
