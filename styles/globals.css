@@ -5,8 +5,25 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-main{
+main {
+  padding: 0;
+  margin: 0;
   width: 100%;
   max-width: 1370px;
   margin: 0 auto;
+}
+
+.yelbox {
+  transform: rotate(90deg);
+}
+
+.brand:hover {
+  color: rgb(153, 63, 63);
+  transition: 300ms;
+}
+
+.menuItem:hover {
+  color: rgb(153, 63, 63);
+  transition: 300ms;
+  cursor: pointer;
 }

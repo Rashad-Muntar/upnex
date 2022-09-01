@@ -1,12 +1,12 @@
-import React, { PropsWithChildren } from 'react'
-import { Box } from '@chakra-ui/react'
+import React, { PropsWithChildren } from "react";
+import { Box, Flex } from "@chakra-ui/react";
 
-function Container({children}: PropsWithChildren) {
+function Container({ children }: PropsWithChildren) {
   return (
     <Box w="100%" maxWidth="1300px">
-        {children}
+      {children}
     </Box>
-  )
+  );
 }
 
-export default Container
+export default Container;
